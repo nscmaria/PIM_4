@@ -9,9 +9,9 @@
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="130dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="56dp"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="44dp"
         android:background="@drawable/btn_fundo"
         android:text="ALFACE"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,64 +30,66 @@
         android:id="@+id/textView6"
         android:layout_width="149dp"
         android:layout_height="39dp"
+        android:background="@drawable/caixa_text"
         android:text="CATEGORIAS"
         android:textColor="#000000"
         android:textSize="20sp"
-        android:background="@drawable/caixa_text"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="140dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="140dp" />
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="130dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="80dp"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="68dp"
         android:background="@drawable/btn_fundo"
         android:text="BATATA"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="247dp" />
+        tools:layout_editor_absoluteY="264dp" />
 
     <Button
         android:id="@+id/button14"
-        android:layout_width="130dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="80dp"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="68dp"
         android:background="@drawable/btn_fundo"
         android:text="REPOLHO"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="296dp" />
+        tools:layout_editor_absoluteY="333dp" />
 
     <Button
         android:id="@+id/button13"
-        android:layout_width="130dp"
-        android:layout_height="40dp"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="44dp"
         android:background="@drawable/btn_fundo"
         android:text="CENOURA"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="296dp" />
+        tools:layout_editor_absoluteY="333dp" />
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="130dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="60dp"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="32dp"
         android:layout_marginEnd="18dp"
         android:background="@drawable/btn_fundo"
         android:text="CEBOLA"
         app:layout_constraintEnd_toStartOf="@+id/button9"
+        app:layout_constraintHorizontal_bias="0.923"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="247dp" />
+        tools:layout_editor_absoluteY="264dp" />
 
     <Button
         android:id="@+id/button12"
-        android:layout_width="130dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="80dp"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="68dp"
         android:background="@drawable/btn_fundo"
         android:text="TOMATE"
         app:layout_constraintEnd_toEndOf="parent"
@@ -98,13 +100,13 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/caixa_text"
         android:text="FILTRAR"
         android:textColor="#000000"
         android:textSize="20sp"
-        android:background="@drawable/caixa_text"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="388dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="421dp" />
 
     <Button
         android:id="@+id/button17"
@@ -114,7 +116,7 @@
         android:text="ORGANICO"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="434dp" />
+        tools:layout_editor_absoluteY="464dp" />
 
     <Button
         android:id="@+id/button19"
@@ -124,7 +126,7 @@
         android:text="PRODUTO LOCAL"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="495dp" />
+        tools:layout_editor_absoluteY="525dp" />
 
     <Button
         android:id="@+id/button20"
@@ -134,5 +136,5 @@
         android:text="PRODUTO FRESCO"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="558dp" />
+        tools:layout_editor_absoluteY="587dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
