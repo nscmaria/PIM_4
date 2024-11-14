@@ -110,8 +110,8 @@
 
     <Button
         android:id="@+id/button17"
-        android:layout_width="130dp"
-        android:layout_height="45dp"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
         android:background="@drawable/btn_fundo"
         android:text="ORGANICO"
         tools:ignore="MissingConstraints"
@@ -120,8 +120,8 @@
 
     <Button
         android:id="@+id/button19"
-        android:layout_width="130dp"
-        android:layout_height="45dp"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
         android:background="@drawable/btn_fundo"
         android:text="PRODUTO LOCAL"
         tools:ignore="MissingConstraints"
@@ -130,8 +130,8 @@
 
     <Button
         android:id="@+id/button20"
-        android:layout_width="130dp"
-        android:layout_height="45dp"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
         android:background="@drawable/btn_fundo"
         android:text="PRODUTO FRESCO"
         tools:ignore="MissingConstraints"
