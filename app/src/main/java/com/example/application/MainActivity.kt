@@ -1,5 +1,6 @@
 package com.example.application
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +16,13 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+
         }
+    }
+    private fun activityMain2() {
+        val activityMain2 = Intent(this, activityMain2()::class.java)
+        startActivity(activityMain2)
+
+
     }
 }

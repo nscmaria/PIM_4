@@ -10,64 +10,64 @@
     <EditText
         android:id="@+id/editText"
         android:layout_width="385dp"
-        android:layout_height="47dp"
+        android:layout_height="55dp"
         android:background="@drawable/caixa_text"
         android:ems="10"
         android:inputType="text"
         android:text=" Nome Completo"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="229dp" />
+        tools:layout_editor_absoluteY="212dp" />
 
     <EditText
         android:layout_width="385dp"
-        android:layout_height="47dp"
+        android:layout_height="55dp"
         android:background="@drawable/caixa_text"
         android:ems="10"
         android:inputType="text"
         android:text=" Email"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="300dp" />
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="276dp" />
 
     <EditText
         android:id="@+id/editText3"
         android:layout_width="385dp"
-        android:layout_height="47dp"
+        android:layout_height="55dp"
         android:background="@drawable/caixa_text"
         android:ems="10"
         android:inputType="text"
         android:text=" Telefone"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="362dp" />
+        tools:layout_editor_absoluteY="338dp" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="385dp"
-        android:layout_height="47dp"
+        android:layout_height="55dp"
         android:background="@drawable/caixa_text"
         android:ems="10"
         android:inputType="text"
         android:text=" Endereço"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="433dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="405dp" />
 
     <EditText
         android:layout_width="385dp"
-        android:layout_height="47dp"
+        android:layout_height="55dp"
         android:background="@drawable/caixa_text"
         android:ems="10"
         android:inputType="text"
         android:text=" Senha"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="507dp" />
+        tools:layout_editor_absoluteY="473dp" />
 
     <EditText
         android:layout_width="385dp"
-        android:layout_height="47dp"
+        android:layout_height="55dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/caixa_text"
@@ -75,23 +75,23 @@
         android:inputType="text"
         android:text=" Confirmar senha"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintHorizontal_bias="0.342"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="569dp" />
+        tools:layout_editor_absoluteY="528dp" />
 
     <EditText
         android:id="@+id/editTextText5"
         android:layout_width="130dp"
-        android:layout_height="46dp"
+        android:layout_height="55dp"
         android:ems="10"
         android:inputType="text"
         android:text="CADASTRO"
         android:textSize="24sp"
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="171dp" />
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="157dp" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -105,7 +105,7 @@
     <Button
         android:id="@+id/button3"
         android:layout_width="230dp"
-        android:layout_height="44dp"
+        android:layout_height="55dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/btn_fundo"
@@ -119,14 +119,13 @@
     <Switch
         android:id="@+id/switch1"
         android:layout_width="237dp"
-        android:layout_height="22dp"
+        android:layout_height="55dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:text="Eu aceito termos e condições"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.427"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="628dp" />
+        tools:layout_editor_absoluteY="579dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
