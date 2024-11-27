@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_pagamento">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="407dp"
+        android:layout_height="725dp"
+        app:srcCompat="@drawable/pagamento"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="349dp"
+        android:layout_height="52dp"
+        android:background="@drawable/btn_fundo"
+        android:text="PROSSEGUIR PARA O PAGAMENTO ->"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="651dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
