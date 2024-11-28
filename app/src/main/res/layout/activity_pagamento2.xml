@@ -8,9 +8,30 @@
     tools:context=".activity_pagamento2">
 
     <TextView
+        android:id="@+id/textView15"
+        android:layout_width="97dp"
+        android:layout_height="49dp"
+        android:text="Cebola Roxa 1x"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Alface 2x"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="583dp" />
+
+    <TextView
         android:id="@+id/textView9"
         android:layout_width="144dp"
-        android:layout_height="25dp"
+        android:layout_height="50dp"
         android:text="PAGAMENTO"
         android:textColor="#000000"
         android:textColorLink="#000000"
@@ -22,107 +43,139 @@
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="DETALHES DO PAGAMENTO"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="66dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="70dp" />
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="wrap_content"
+        android:layout_width="354dp"
         android:layout_height="50dp"
         android:ems="10"
         android:inputType="text"
         android:text="NUMERO DO CARTÃO"
         android:textSize="12sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="104dp" />
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="120dp" />
 
     <EditText
-        android:id="@+id/txtDataExpiracao"
-        android:layout_width="wrap_content"
+        android:id="@+id/txtdataexpiracao"
+        android:layout_width="355dp"
         android:layout_height="50dp"
         android:ems="10"
         android:inputType="text"
         android:text="DATA DE EXPIRAÇÃO"
+        android:textSize="12dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="154dp" />
+        tools:layout_editor_absoluteY="170dp" />
 
     <EditText
-        android:id="@+id/txtCVV"
-        android:layout_width="287dp"
-        android:layout_height="49dp"
+        android:id="@+id/txtcvv"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
         android:ems="10"
         android:inputType="text"
         android:text="CVV"
+        android:textSize="12dp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="204dp" />
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="220dp" />
 
     <EditText
-        android:id="@+id/txtNomeCartao"
-        android:layout_width="292dp"
-        android:layout_height="49dp"
+        android:id="@+id/txtnomecartao"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
         android:ems="10"
         android:inputType="text"
         android:text="NOME IMPRESSO NO CARTÃO"
+        android:textSize="12dp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="254dp" />
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="270dp" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="FORMA DE PAGAMENTO "
         android:textColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:text="Cartão de Crédito"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="329dp" />
+        tools:layout_editor_absoluteY="355dp" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:text="Cartão de Debito"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="355dp"
+        android:layout_height="55dp"
+        android:text="Pix"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="415dp" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cartão de Crédito"
+        android:text="Detalhes total da compra"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="247dp"
-        tools:layout_editor_absoluteY="384dp" />
+        android:textSize="18dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="470dp" />
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cartão de Debito"
+        android:layout_width="133dp"
+        android:layout_height="20dp"
+        android:text="Valor Total:"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="403dp" />
+        android:textSize="14sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="494dp" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pix"
+        android:text="Produtos:"
         android:textColor="#000000"
-        tools:layout_editor_absoluteX="338dp"
-        tools:layout_editor_absoluteY="422dp" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="514dp" />
 
-    <Switch
-        android:id="@+id/switch2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cartão de Crédito"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="403dp" />
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="326dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_fundo"
+        android:text="CONFIRMAR PAGAMENTO"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="649dp" />
 
-    <Switch
-        android:id="@+id/switch3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cartão de Debito"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="441dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
